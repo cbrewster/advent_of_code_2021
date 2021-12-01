@@ -1,6 +1,7 @@
-run = ["cargo", "run", "day01"]
+#run = ["cargo", "run", "day01"]
+run = ["./run.sh"]
 
-entrypoint = "src/main.rs"
+entrypoint = "README.md"
 
 [packager]
 language = "rust"
