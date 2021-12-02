@@ -1,10 +1,10 @@
 { pkgs }: {
-	deps = [
-		pkgs.rustc
-		pkgs.rustfmt
-		pkgs.cargo
-		pkgs.cargo-edit
+    deps = [
+        pkgs.rustc
+        pkgs.rustfmt
+        pkgs.cargo
+        pkgs.cargo-edit
         pkgs.rust-analyzer
         pkgs.fzy
-	];
+    ];
 }
